@@ -1,0 +1,58 @@
+body {
+    background-color: #FFF2EF;
+    color: rgb(35, 35, 35);
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+hr {
+    border-style: none;
+    background-color: rgb(35, 35, 35);
+    height: 3px;
+    width: 75%;
+}
+
+h1 {
+    color: #5D688A;
+}
+
+h3 {
+    color: #5D688A;
+    margin-left: 15px;
+}
+
+table {
+    margin-left: 15px;
+}
+
+#idCard {
+    margin: 25px;
+    border: 2px, solid, rgb(35, 35, 35), ;
+    border-radius: 25px;
+    background-color: white;
+    max-width: 750px;
+}
+
+.profilePicture {
+    width: 250px;
+    background-color: #F5D2D2;
+    border: 1px, solid, rgb(35, 35, 35), ;
+    border-radius: 10px;
+}
+
+.chiikawa {
+    background-color: #F5D2D2;
+}
+
+.hachiware {
+    background-color: #A3CCDA;
+}
+
+.usagi {
+    background-color: #F8F7BA;
+}
+
+.kurimanju {
+    background-color: #BDE3C3;
+}
