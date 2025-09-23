@@ -1,0 +1,215 @@
+/* elements */
+body {
+    background: linear-gradient(to top, #BCDEA1, #CCE6B6);
+
+    margin: 0;
+
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+em {
+    text-decoration: underline;
+}
+
+/* top, middle, bottom divs */
+.top-container {
+    background: linear-gradient(to top, #CDF5F7, #aadae3);
+
+    padding-top: 15%;
+
+    z-index: 0;
+    position: relative;
+
+    text-align: center;
+}
+
+.middle-container {
+    z-index: 0;
+    position: relative;
+}
+
+.bottom-container {
+    padding-bottom: 1%;
+
+    z-index: 0;
+    position: relative;
+
+    text-align: center;
+    text-shadow: 0 0 5px #CCE6B6, 0 0 10px #CCE6B6, 0 0 15px #CCE6B6;
+}
+
+/* top div */
+#mountain {
+    width: 90%;
+
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#hidden {
+    margin-top: 5%;
+    width: 90%;
+    visibility: hidden;
+}
+
+.cloud {
+    z-index: -1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#cloud-b {
+    width: 20%;
+    top: 65%;
+    left: 25%;
+}
+
+#cloud-m {
+    width: 12%;
+    top: 43%;
+    right: 7%;
+}
+
+#cloud-s1 {
+    width: 7%;
+    top: 57%;
+    right: 5%;
+}
+
+#cloud-s2 {
+    width: 7%;
+    top: 60%;
+    left: 13%;
+}
+
+#horizon {
+    background-color: #5C504F;
+
+    height: 3px;
+    width: 100%;
+
+    margin: 0;
+    border: none;
+}
+
+/* middle div */
+#grass {
+    width: 100%;
+
+    z-index: -3;
+    position: relative;
+}
+
+.character {
+    max-width: 30%;
+    height: auto;
+
+    z-index: -1;
+    position: absolute;
+}
+
+#chiikawa {
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+
+#hachiware {
+    top: 7%;
+    right: 10%;
+}
+
+#usagi {
+    bottom: 0;
+    left: 10%;
+}
+
+.choices {
+    z-index: 10;
+    position: absolute;
+
+    text-shadow: 0 0 5px #CCE6B6, 0 0 10px #CCE6B6, 0 0 15px #CCE6B6;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+
+#aboutMe {
+    top: 25%;
+    left: 32%;
+}
+
+#skills {
+    top: 50%;
+    left: 37%;
+}
+
+#others {
+    top: 17%;
+    right: 30%;
+}
+
+.button {
+    position: relative;
+    transform: translateY(-10%);
+}
+
+
+/* bottom div */
+#bushes {
+    width: 100%;
+
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+
+    transform: translate(-50%);
+}
+
+.icon {
+    height: 25px;
+
+    position: relative;
+    top: 5px;
+}
+
+.contact-detail {
+    margin: 0 5px;
+
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* highlight colors */
+.pink {
+    background-color: #F5D2D2;
+}
+
+.blue {
+    background-color: #A3CCDA;
+}
+
+.yellow {
+    background-color: #F8F7BA;
+}
+
+.green {
+    background-color: #BDE3C3;
+}
